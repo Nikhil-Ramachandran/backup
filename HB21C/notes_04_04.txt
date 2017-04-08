@@ -1,0 +1,66 @@
+april 4 2017
+
+content model from the dtd (document type data):
+the structure of the xml schema
+
+
+no need to worry about namespace? 
+
+
+xml validator will allow us to normalize the entry files; 
+XSLT converts xml to html, csv, json
+input for xslt: xml file
+xslt: rules for conversion; never operates on source and hence has to be directed to output
+output: html?  
+
+xslt1 xslt2
+
+xslt processsor: saxon, libxslt
+
+the hope was for browsers to understand xslt-- 
+why werent browsers able to process xslt?--  
+xslt sheet are used for transformation-- 
+
+entry-to-html.xsl
+have to only modify the template section for now
+
+the xml processor works with trees as a datastructure
+trees can work very well with text; 
+tree structure order through a root element
+
+generating a tree view-- the wrench icon is the transformation scenario
+the ability to handle text in its correct order:xml
+one can generate a tree structure of the document and output it in the browser-- need to find out how to do thois;
+
+navigating the xml tree through an xsl file; 
+"target" element can be used to cross reference other children elements of another sibling node in a particular level of the tree
+within terry's presentation there is a tutorial from tei to cross reference; 
+
+Xpath 
+allows us to navigate the tree
+path is used on the commandline, so does urls
+
+Xpath expressions
+locations in the node--thepath
+gives address for elements
+context: current location
+text()
+
+axes: directions
+
+xpath predicatees
+xpath functions: eg: // count of all
+
+//material[text() = 'bread']/following::material
+for //--any descendent, give me the following element material
+count(//*)
+
+xpath describes location in the xml
+
+HAVE TO CORRECT THE <FOLIO> 
+
+
+
+
+
+
