@@ -1,0 +1,30 @@
+notes on marking up entires and recofiguring metadata
++++++++++++++++++++++++++++++++++++++
+
+
+###########require <product> or <object> -- casting a medal; the medal is an <object that is being transformed> not a tool, nor a material...
+
+what happened to finished product?-- casting a medal... <purpose="making>
+
+p140_2.xml;
+
+i could use purpose? i thought purpose was used at the level of entry or block... this is perhaps a problem with activity, if we are trying to normalize activit i suggest there should be a lower level element which can hone in on what is being transformed within each entry--> hence product?
+
+p139v_1.xml
+
+perhaps <purpose> within <block> and <activity> within block have some overlap, would be more useful if we defined purpose only at the entry level? 
+
+####require image withing block
+
+#######not sure how activity works; --was thinking it works at the level of phrase?? at level of the hierarchy should it be used; does purpose as an attribute of block, conflict with activity having a type="color making"? activity refine what is being done at the level of purpose----
+activity can also be used to creates reference points for other entries p141r_1
+##################need a list of "types" for activity??  example "giving thickness" for molding things too thin? p142v_1
+
+==========================
+need to add issues...
+finish field notes...
+finish the rest of the folios..
+===============================
+
+
+
